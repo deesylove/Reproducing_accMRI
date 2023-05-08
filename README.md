@@ -18,17 +18,21 @@ curl -C - "https://fastmri-dataset.s3.amazonaws.com/v2.0/knee_singlecoil_train.t
 ## Prior to running the model
 
 Prior to running the model, clone this repository or the original via the following commands:
-```
-git clone https://github.com/michael-s-yao/accMRI
-cd accMRI
-```
-
-OR 
 
 ```
 git clone https://github.com/dcloveUIUC/Reproducing_accMRI
 cd Reproducing_accMRI
 ```
+
+OR 
+
+
+```
+git clone https://github.com/michael-s-yao/accMRI
+cd accMRI
+```
+
+
 ## Dependencies
 Once in the correct folder, activate a python virtual environment and install the dependencies. Note that we have modified the dependencies in `Reproducing_accMRI` because we found various incompatibilities in the original. For example:
 
