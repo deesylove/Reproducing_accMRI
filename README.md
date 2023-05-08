@@ -64,6 +64,9 @@ If running this model with the entire dataset, the data must be structured as fo
 
 ## Training Code + Commands
 
+To check if your system has access to a GPU (important to know for running this code), we've added a small program to print out whether the hardware your system can access is currently a GPU or CPU. Use that by running ```python cuda_check.py```.
+
+
 In order to train this model, run the `main.py` file from the `discriminator` folder. Use input `python main.py --help` as an input to see the full range of commands. See below for a possible example:
 
 ```
