@@ -1,7 +1,7 @@
 # Reproducing_accMRI
 ### Reproducing accMRI's self-supervised k-space data corruption detector
 
-This is our code which aims to reproduce the self-supervised k-space data corruption discriminator from Michael Yao and Michael Hansen's "A Path Towards Clinical Adaptation of Accelerated MRI". See the original GitHub Repository here: https://github.com/michael-s-yao/accMRI 
+This code aims to reproduce the self-supervised k-space data corruption discriminator from Michael Yao and Michael Hansen's "A Path Towards Clinical Adaptation of Accelerated MRI". See the original GitHub Repository here: https://github.com/michael-s-yao/accMRI 
 
 # Using this Repository
 ## Data Download Instruction
