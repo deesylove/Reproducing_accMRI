@@ -62,7 +62,7 @@ If running this model with the entire dataset, the data must be structured as fo
         ├── brain_singlecoil_test
 ```
 
-##Training Code + Command
+## Training Code + Commands
 
 In order to train this model, run the `main.py` file from the `discriminator` folder. Use input `python main.py --help` as an input to see the full range of commands. See below for a possible example:
 
