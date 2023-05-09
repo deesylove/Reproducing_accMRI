@@ -89,3 +89,4 @@ python infer.py --data_path ../data/knee --model ../discriminator/lightning_logs
 
 This will results in running inference on the model and saving results in the `save_path` input, including the `heatmap.pkl` file which has the aggregated results. 
 
+See the file notebook_summary.ipynb for additional information.
