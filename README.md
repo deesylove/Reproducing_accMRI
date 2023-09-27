@@ -1,7 +1,7 @@
 # Reproducing_accMRI
 ### Reproducing accMRI's self-supervised k-space data corruption detector
 
-This code aims to reproduce the self-supervised k-space data corruption discriminator from Michael Yao and Michael Hansen's "A Path Towards Clinical Adaptation of Accelerated MRI". See the original GitHub Repository here: https://github.com/michael-s-yao/accMRI 
+This code aims to reproduce the self-supervised k-space data corruption discriminator from Michael Yao and Michael Hansen's "A Path Towards Clinical Adaptation of Accelerated MRI". 
 
 # Using this Repository
 ## Data Download Instruction
@@ -90,3 +90,5 @@ python infer.py --data_path ../data/knee --model ../discriminator/lightning_logs
 This will results in running inference on the model and saving results in the `save_path` input, including the `heatmap.pkl` file which has the aggregated results. 
 
 See the file notebook_summary.ipynb for additional information.
+
+See the paper's original author's GitHub Repository here: https://github.com/michael-s-yao/accMRI 
